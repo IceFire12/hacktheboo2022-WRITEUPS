@@ -22,11 +22,11 @@ We now have all DNS requests extracted with some unnecessary information. So we 
 
 ![regex](images/regex.png)
 
-Get a HEX dump. We throw it into [Cyberchef](https://cyberchef.org). Save the output as a *.zip* file.
+Get a HEX dump. We throw it into [Cyberchef](https://cyberchef.org). Save the output as a `.zip` file.
 
 ![cyberchef](images/get_file.png)
 
-Extract the downloaded *.zip* file and get a lot of *.xml* files, that we just search through untill we find our flag.
+Extract the downloaded `.zip` file and get a lot of `.xml` files, that we just search through untill we find our flag.
 
 ![flag](images/find_flag.png)
 

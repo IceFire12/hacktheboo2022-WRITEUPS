@@ -1,8 +1,26 @@
 # Pumpkin Stand - WRITEUP
 
-We are provided with challenge files. We can find out with "file" command that pumpkin_stand is an executable. We run it and we are greeted with a pumpkin and a question to choose beetwen a shovel and a laser. We start trying to test different combinations to see what kind of responses we get. After some lucky guessing we find out that combination "2" and "77", "777" or "777" returns us a fake flag that was stored in flag.txt file.
+![pwn](https://img.shields.io/badge/category-pwn-brightgreen) <br>
+![difficulty](https://img.shields.io/badge/difficulty-easy-green) <br>
+![solvetime](https://img.shields.io/badge/solved-durring%20event-green)
 
-Now we just need to do this on a live docker that was provided to us to get the flag. 
+## Description
 
+> This time of the year, we host our big festival and the one who craves the pumpkin faster and make it as scary as possible, gets an amazing prize! Be fast and try to crave this hard pumpkin!
 
-Flag: 
+Provided files are [here](challenge):
+- glibc
+    - ld-linux-x86-64.so.2
+    - libc.so.6
+- flag.txt
+- pumpkin_stand
+
+## Solving process
+
+We can run the pumpkin_stand binary file with `./pumpkin_stand`. We are greeted with a pumpkin and a question to choose beetwen a shovel and a laser. We start trying different combinations to see what kind of responses we get. After some lucky guessing we find out that combination `2` and `77`/`777`/`7777` returns us a fake flag that was stored in `flag.txt` file.
+
+![fakeflag](images/fake_flag.png)
+
+Now we just need to do this on a live Docker that we can start from the CTF challenge site to get the correct flag. We connect to the Docker using `netcat`. 
+
+**Flag:** **

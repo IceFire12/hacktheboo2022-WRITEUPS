@@ -13,11 +13,11 @@ Provided file is:
 
 ## Solving process
 
-We try to run the file to see what happens. The program asks for a password. We need to find the password. We throw the binary file into an online decompiler tool [DogBolt](https://dogbolt.org), where after looking around we can find the password we need in the *main* function.
+We try to run the file to see what happens. The program asks for a password. We need to find the password. We throw the binary file into an online decompiler tool [DogBolt](https://dogbolt.org), where after looking around we can find the password we need in the `main` function.
 
 ![decompile](images/decompile.png)
 
-We have found our password! Now all we need to do is to start the Docker on the challenge site, connect to it using *netcat* and insert the password. We get a remote shell. We use *ls* and *cat flag.txt* in order to get to our flag.
+We have found our password! Now all we need to do is to start the Docker on the challenge site, connect to it using `netcat` and insert the password. We get a remote shell. We use `ls` and `cat flag.txt` in order to get to our flag.
 
 ![process](images/process.png)
 
