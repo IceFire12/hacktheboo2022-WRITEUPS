@@ -15,7 +15,7 @@ Provided file is:
 
 We get an ELF executable file. We can use command `readelf -a encodedpayload` to read the file. We get an output of:
 
-<code>
+```
 ELF Header:
   Magic:   7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00
   Class:                             ELF32
@@ -52,7 +52,8 @@ No processor specific unwind information to decode
 
 Dynamic symbol information is not available for displaying symbols.
 
-No version information found in this file. </code>
+No version information found in this file.
+```
 
 We find it has zero symbols just an ELF header. So we can run `strace ./encodedpayload` on it and find the flag.
 
