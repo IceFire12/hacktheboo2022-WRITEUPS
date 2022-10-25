@@ -13,7 +13,7 @@ Provided file is:
 
 ## Solving process
 
-We open the given .pcap file in [Wireshark](https://www.wireshark.org/). After looking through we can find some images that were accessed and we can find a hostile command execution that was achieved with RCE. Unable to find the flag in this command execution, I just ran *strings* command on the file. We can see a Base64 encoded string at the end, but it is in reverse order.
+We open the given .pcap file in [Wireshark](https://www.wireshark.org/). After looking through we can find some images that were accessed and we can find a hostile command execution that was achieved with RCE. Unable to find the flag in this command execution, I just ran `strings` command on the file. We can see a Base64 encoded string at the end, but it is in reverse order.
 
 ![strings](images/running_strings.png)
 
