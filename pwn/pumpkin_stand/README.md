@@ -8,12 +8,8 @@
 
 > This time of the year, we host our big festival and the one who craves the pumpkin faster and make it as scary as possible, gets an amazing prize! Be fast and try to crave this hard pumpkin!
 
-Provided files are [here](challenge):
-- glibc
-    - ld-linux-x86-64.so.2
-    - libc.so.6
-- flag.txt
-- pumpkin_stand
+Provided files are:
+- [All files](challenge)
 
 ## Solving process
 
