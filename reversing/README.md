@@ -2,3 +2,5 @@
 
 - [Cult Meeting](cult_meeting)
 - [EncodedPayload](encodedPayload)
+- [Ghost Wrangler](ghost_wrangler)
+- [Ouija](ouija)
