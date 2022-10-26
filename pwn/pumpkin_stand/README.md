@@ -19,4 +19,4 @@ We can run the pumpkin_stand binary file with `./pumpkin_stand`. We are greeted 
 
 Now we just need to do this on a live Docker that we can start from the CTF challenge site to get the correct flag. We connect to the Docker using `netcat`. 
 
-**Flag:** **
+**Flag:** *HTB{1nt3g3R_0v3rfl0w_101_0r_0v3R_9000!}*
