@@ -23,6 +23,7 @@ Writeups for the CTF event Hack The Boo 2022 organized by Hack The Box.
     - [EncodedPayload](reversing/encodedPayload)
     - [Ghost Wrangler](reversing/ghost_wrangler)
     - [Ouija](reversing/ouija)
+    - [Secured Transfer](reversing/secured_transfer)
 - [Web](web)
     - [Evaluation Deck](web/evaluation_deck)
     - [Horror Feeds](web/horror_feeds)
