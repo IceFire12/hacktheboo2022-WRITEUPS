@@ -2,7 +2,7 @@
 
 ![reversing](https://img.shields.io/badge/category-reversing-brightgreen) <br>
 ![difficulty](https://img.shields.io/badge/difficulty-medium-orange) <br>
-![solvetime](https://img.shields.io/badge/solved-durring%20event-green)
+![solvetime](https://img.shields.io/badge/solved-not%20solved-red)
 
 ## Description
 
