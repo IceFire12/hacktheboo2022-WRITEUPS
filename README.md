@@ -37,4 +37,4 @@ Writeups for the CTF event Hack The Boo 2022 organized by Hack The Box.
 
 ## Closing thoughts
 
-Thank you to the Hack The Box team for organizing such a great CTF. It was very beginer friendly, the challenges where very fun and I have learned a lot while solving challenges. Overall I am very happy with my performance solving 10/25 challenges. Looking forward to more CTFs organized by the amazing Hack The Box team.
+Thank you to the Hack The Box team for organising such a great CTF. It was very beginner friendly, the challenges were very fun and I have learned a lot. Overall I am very happy with my performance, having solved 10/25 challenges. Looking forward to more CTFs organised by the amazing Hack The Box team.
